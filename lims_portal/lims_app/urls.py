@@ -18,7 +18,12 @@ from django.contrib import admin
 from django.urls import path
 from .views import *
 urlpatterns = [
+    path("", home),
     path("home", home),
+    path("readers", readers),
+    path("books", books),
+    path("bag", bag),
+    path("returns", returns),
     path("shop", shopping),
     path("save", save_student),
 ]
