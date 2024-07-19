@@ -3,7 +3,49 @@
 {% load static %}
 
 {% block main_content %}
+<main role ="main">
+<div class = "jumbotron">
+    <div class = "container">
+        <img src="{% static '/whitebck.png' %}" class = "rounded float-start" height = "200" style = "margin-right: 20px;">
+        <h1 class = "display-4">Hello, readers!</h1>
+        <p>Welcome to City Library. We have an extensive collection of books to cater for diverse reading needs and interests.</p>
+        <a role="button" href ="a" class="btn btn-primary">Browse our collection >></a>
+    </div>
 
-<h1>I am in Home page</h1>
+</div>
+<div class="container ">
+    <div class="row">
+      <div class="col">
+        <h2 style ="font-size: 20px;">Why reading is important?</h2>
+        <p>Reading is a fundamental skill that opens up a world of knowledge, imagination and personal growth. By immersing yourself in books you can develop critical thinking abilities and cultivate a lifelong love of learning.</p>
+        
+      </div>
+      <div class="col">
+        <h2 style ="font-size: 20px;">Key Benefits</h2>
+           <ul>
+               <li>Increase your communication skills</li>
+               <li>Reduce stress</li>
+               <li>Improve mental health</li>
+               <li>Prevents cognitive decline</li>
+
+           </ul>
+      </div>
+      <div class="col">
+        <h2 style ="font-size: 20px;">Thought for the day!</h2>
+        <p>"Be the person who doesn't give up even when you have every right to break down", Harvey Specter</p>
+
+      </div>
+    </div>
+    <hr>
+  </div>
+         
+</main>
+
+  <footer class = "container">
+    <p>@ City Library 2024</p>
+
+  </footer>
+    
+
 
 {% endblock %}
